@@ -9,8 +9,8 @@
     <!-- Custom styles -->
     <style>
         .navbar {
-            background-color: #f0f0f0; /* Light grey */
-            color: #000; /* Black text */
+            background-color: #244855;
+            color: #FFF;
             font-size: 1.4rem; /* Increase font size for all text elements */
         }
 
@@ -22,6 +22,7 @@
         .navbar-text {
             font-size: 2rem; /* Large font size */
             font-weight: bold; /* Bold font weight */
+            color: #FFF;
         }
 
         .navbar-nav .nav-link {
@@ -33,17 +34,31 @@
         }
 
         .row {
-            margin-bottom: 50px;
+          margin-bottom: 50px;
         }
+        
+        .bg-custom {
+    		background-color: #244855;
+		}
+        
+        .btn-custom {
+    background-color: #E64833;
+    border-color: #E64833;
+}
+.btn-custom:hover {
+    background-color: #d13c29;
+    border-color: #d13c29;
+}
+        
 
     </style>
 </head>
-<body>
+<body style="background-color: #FBE9D0;">
 
 <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container">
         <a class="navbar-brand" href="index.html">
-            <span class="navbar-text">CCCE</span>
+            <span class="navbar-text text-white">CCCE</span>
             <img src="CCCE_logo200.png" alt="Logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -53,22 +68,23 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="experts.html">Experts</a>
+                    <a class="nav-link text-white" href="experts.html" style="font-size: 2rem;">Experts</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="services.html">Services</a>
+                    <a class="nav-link text-white" href="services.html" style="font-size: 2rem;" >Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
+                    <a class="nav-link text-white" href="about.html" style="font-size: 2rem;" >About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link text-white" href="contact.html" style="font-size: 2rem;" >Contact</a>
                 </li>
             </ul>
-            <a href="booking.html" class="btn btn-dark">Book Now</a>
+            <a href="booking.html" class="btn btn-custom" style="font-size: 2rem;" >Book Now</a>
         </div>
     </div>
 </nav>
+
 
 
 
@@ -107,7 +123,7 @@
 </div>
 
  <!-- footer -->
-<footer class="bg-dark text-light py-4">
+<footer class="bg-custom text-light py-4" >
   <div class="container">
     <div class="row">
       <div class="col-md-4">
@@ -126,14 +142,14 @@
         <div class="row">
           <div class="col-md-6">
             <ul class="list-unstyled">
-              <li><a href="experts.html" class="text-light">Experts</a></li>
-              <li><a href="services.html" class="text-light">Services</a></li>
+              <li><a href="experts.html" class="text-light" style="font-size: 2rem;" >Experts</a></li>
+              <li><a href="services.html" class="text-light" style="font-size: 2rem;" >Services</a></li>
             </ul>
           </div>
           <div class="col-md-6">
             <ul class="list-unstyled">
-              <li><a href="about.html" class="text-light">About</a></li>
-              <li><a href="contact.html" class="text-light">Contact</a></li>
+              <li><a href="about.html" class="text-light" style="font-size: 2rem;" >About</a></li>
+              <li><a href="contact.html" class="text-light" style="font-size: 2rem;" >Contact</a></li>
             </ul>
           </div>
         </div>
